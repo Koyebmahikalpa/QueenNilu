@@ -81,11 +81,11 @@ global.alivelogo = process.env.ALIVE_IMAGE || `https://te.legra.ph/file/3e572499
 //👇 Alive message
 global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || ``
 //👇 Welcome Mesaage
-global.WELCOME = process.env.WELCOME || ``
+global.WELCOME = process.env.WELCOME || `true`
 //👇 welcome image 
 global.WELCOME_IMAGE = process.env.WELCOME_IMAGE || ``
 //👇 Goodbye message 
-global.GOODBYE = process.env.GOODBYE || ``
+global.GOODBYE = process.env.GOODBYE || `true`
 //👇 Good bye image
 global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || ``
 //👇 Send Welcome ( true or false )
